@@ -22,11 +22,11 @@ n, m = input().split() #두 자연수 입력
 n = int(n) #int 형 변환 
 m = int(m)
 
-def f(n,m): 
-    if n>m:
-        return 0
-    elif m%2:
-        f(n,m-1)
+def f(n,m): #재귀실행
+    if n>m: #최솟값이 최댓값보다 작다면 
+        return 0 #반환
+    elif m%2: #최댓값 몫 2
+        f(n,m-1) #함수에 최솟값 그리고 
         print(m,end= " ")
     elif not m%2:
         f(n,m-1)
