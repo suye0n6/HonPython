@@ -3,3 +3,5 @@
 dic = {'name': 'simy', 'age': '12', 'phone': '010-233-421'}
 
 a = {1: 'hi'}
+
+di = {2: 'bye'}
