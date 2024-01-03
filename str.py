@@ -16,3 +16,7 @@ a = "hobby"
 a.count('b')
 2
 
+a = "bye"
+b = "bye"
+
+a+b
