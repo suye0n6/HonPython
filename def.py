@@ -34,7 +34,7 @@ number = list(number)
 k = int(input())
 
 def lenf(k):
-    flag=Flase
+    flag=False
     for idx in range(len(number)):
        if number[idx] == k:
           print(idx+1)
