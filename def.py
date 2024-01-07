@@ -25,6 +25,15 @@ def f(n):
   elif n<0:
     print(-n)
 
+#1549
+n = int(input())
+
+def f(n):
+  if n<=0:
+    print(-n)
+  elif n>0:
+    print(n)
+
 f(n)
 
 #1551
