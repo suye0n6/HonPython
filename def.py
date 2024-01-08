@@ -54,3 +54,20 @@ def lenf(k):
 
 f(k)
 
+#1548
+
+w = int(input())
+
+def grade(w):
+  if w >=90 :
+    print("A")
+  elif w >= 80:
+    print("B")
+  elif w >= 70:
+    print("C")
+  elif w >= 60:
+    print("D")
+  elif w < 60:
+    print("F")
+
+grade(w)
