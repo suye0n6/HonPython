@@ -10,6 +10,8 @@ head + tail
 a = "Life is too short, You need Python"
 a[3]
 
+C = "Life is too short, You need Python"
+C[3]
 #문자 개수 세시 -count
 
 a = "hobby"
